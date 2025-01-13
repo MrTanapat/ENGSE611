@@ -1,0 +1,60 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.container-3grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.about-me {
+    text-align: center;
+    background-color: rgb(245, 172, 15);
+    border-color: black;
+    border-style: solid;
+    padding: 10px;
+}
+
+.my-class {
+    margin-top: 10px;
+    background-color: rgb(255, 242, 204);
+    border-style: solid;
+    border-color: goldenrod;
+    padding: 10px;
+}
+
+.my-moods {
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+    background-color: rgb(213, 232, 212);
+    border-style: solid;
+    border-color: rgb(5, 98, 67);
+    padding: 10px;
+}
+
+.my-funfact {
+    margin-top: 10px;
+    background-color: rgb(213, 232, 212);
+    border-style: solid;
+    border-color: rgb(5, 98, 67);
+    padding: 10px;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    margin-left: 20px;
+}
+
+.img2 {
+    height: 50px;
+    width: 100px;
+    border-style: solid;
+    border-color: brown;
+}
